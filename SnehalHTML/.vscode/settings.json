@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4d547c1d-c5c2-4192-bc6d-ec9ff34750d8/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/skysalon",
+    "appService.deploySubpath": "SkySalon"
+}

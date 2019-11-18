@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/comfortaa/v22/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/oswald/v23/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html{
+    font-family: Comfortaa;  
+     
+}
+
+.navigation h3{
+    display: inline-block;
+    margin: 18px 45px 26px 0px;
+    
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    color:black;
+    font-style:normal;
+}
+
+.navigation img{
+    align-content: right;
+    display: inline-block;
+    float: right;
+
+}
+
+#banner{
+    background-image: url("../images/BrownbearPicture.jpg");
+    background-attachment: fixed;
+    height:955px;
+    background-size: cover;
+}
+
+#banner h1{
+    font-family: Oswald;
+    text-align: center;
+    color: wheat;
+    font-size: 100px;
+    margin-top:0;
+}
+
+body{
+    background-color: white;
+}
+
+#introduction p{
+    margin: 16px 500px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+#banner2{
+    background-image: url("../images/BrownbearInWater.jpg");
+    background-attachment: fixed;
+    height:955px;
+    background-size: cover;
+}
+
+#introduction2{
+    display: inline-block;
+    text-align: center;
+}
+
+#introduction2 p{
+    margin: 16px 500px;
+    text-align: center;
+    font-size: 24px;
+}
